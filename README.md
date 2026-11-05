@@ -64,7 +64,7 @@ verdict, and the indicators that influenced the result.
 Python, Node.js/npm, and either PostgreSQL or Docker.
 
 ```bash
-cd phishing-detector
+cd phishing-detector/phishing-detector
 docker compose up -d db
 
 cd backend
@@ -80,7 +80,7 @@ python run.py
 In another terminal:
 
 ```bash
-cd phishing-detector/frontend
+cd phishing-detector/phishing-detector/frontend
 npm install
 npm run dev
 ```
